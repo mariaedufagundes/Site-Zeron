@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+:root {
+    --fundo: #7E8BD5;
+}
+
+main {
+    background-color: #7E8BD5;
+    overflow-x: hidden;
+}
+
+
+.menu {
+    max-width: 250px;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.menu a {
+    font-size: 20px;
+    color: aliceblue;
+    font-family: "rajdhini" regular;
+    text-decoration: underline transparent;
+    text-decoration-thickness: 2px;
+    transition: text-decoration 300ms ease;
+}
+
+.menu a:hover{
+    text-decoration:#C84B1E;
+}
+
+
+.container-grid {
+    width: 80vw;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    height: 300px;
+}
+
+header img {
+    width: 268px;
+}
+
+header.container-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header svg {
+    width: 50px;
+}
+
+.banner {
+    background-image: url(./img/foto\ 1.jpg);
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position: 0 -30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.animais{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.animais img{
+    width: 400px;
+}
+
+.pesquisa{
+    width: 1005;
+}
+
+
+.conteudo-banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.conteudo-banner img {
+    max-width: 1000px;
+    width: 200%;
+}
+
+
+
+
+
