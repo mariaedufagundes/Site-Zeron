@@ -6,6 +6,14 @@
 }
 
 
+@font-face {
+    font-family: "Cherrybombone";
+    src: url(./font/cherrybombone-regular.ttf);
+
+
+}
+
+
 :root {
     --fundo: #7E8BD5;
 }
@@ -35,8 +43,8 @@ main {
     transition: text-decoration 300ms ease;
 }
 
-.menu a:hover{
-    text-decoration:#C84B1E;
+.menu a:hover {
+    text-decoration: #C84B1E;
 }
 
 
@@ -51,7 +59,7 @@ header {
 }
 
 header img {
-    width: 268px;
+    width: 200px;
 }
 
 header.container-grid {
@@ -68,24 +76,26 @@ header svg {
     background-image: url(./img/foto\ 1.jpg);
     height: 120vh;
     background-repeat: no-repeat;
-    background-position: 0 -30px;
-
+    background-position: 100-100px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 50px;
+    
 }
 
-.animais{
+.animais {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 100px;
+   
 }
 
-.animais img{
-    width: 400px;
+.animais img {
+    width: 350px;
 }
 
-.pesquisa{
+.pesquisa {
     width: 1005;
 }
 
@@ -97,11 +107,360 @@ header svg {
 }
 
 .conteudo-banner img {
-    max-width: 1000px;
-    width: 200%;
+    max-width: 1500px;
+    width: 150%;
+}
+
+#Nosso {
+
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-family: "cherrybombone";
+  
+    
+}
+
+
+#Nosso img {
+    max-width: 5000px;
+    width: 500%;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+    align-items: center;
+}
+
+#Nosso h2 {
+    margin-right: 5px;
+    text-align: center;
+}
+
+
+.Nosso {
+    display: flex;
+    font-family: "cherrybombone", regular;
+    font-size: 20px;
+    font-weight: 600;
+
+
+
+}
+
+.Nosso span {
+    color: #ffffff;
+    margin-bottom: 0;
+    background-color: #F15A24;
+    border-radius: 10px;
+    padding: 5px 15px;
+
+}
+
+.Nosso span {
+    color: #000000;
+    border-bottom: solid 3px
+    }
+
+
+    #cases h2 {
+    margin-right: 5px;
+}
+
+#Destaques {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 120px;
+}
+
+#Destaques img {
+    height: 300px;
+    border-radius: 40px;
+}
+
+#meuCarrossel {
+    max-width: 1170px;
+    width: 90%;
+}
+
+#Destaque {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+#Nosso p {
+    font-family: "rajdhani", regular;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 30px;
+}
+.botoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.botoes button {
+  background-color: #d94b1d;
+  color: white;
+  border: none;
+  padding: 0.90rem 2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.nav {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+.descricao {
+  padding: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #000;
+}
+
+.Nosso {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.Nosso img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.Nosso {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.Nosso .destaque {
+  background-color: orange;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.formulario {
+  background-color: #404073;
+  padding: 10rem;
+  margin: 10rem;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.formulario input, .formulario textarea {
+  width: 80%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 10px;
+  border: none;
+  
+}
+
+.formulario button {
+  padding: 0.8rem 1rem;
+  border: none;
+  background-color: #f47d47;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+
+.rodape {
+  background-color: #404070;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.coluna {
+  flex: 1;
+  min-width: 250px;
+}
+
+.coluna.esquerda h2 {
+  font-size: 24px;
+  border-bottom: 2px solid white;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.equipe-img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.titulo-equipe {
+  font-weight: bold;
+  background-color: white;
+  color: #404070;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.coluna.direita .texto-redes {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.icones-redes {
+  display: flex;
+  gap: 15px;
+}
+
+.icones-redes img {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+
+.rodape {
+  background-color: #404070;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.coluna {
+  flex: 1;
+  min-width: 250px;
+}
+
+.coluna.esquerda h2 {
+  font-size: 24px;
+  border-bottom: 2px solid white;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+
+}
+
+.equipe-img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.titulo-equipe {
+  font-weight: bold;
+  background-color: white;
+  color: #404070;
+  display: inline-block;
+  padding: 6px 12px;
+  align-items: center;
+  
+}
+
+.coluna.direita .texto-redes {
+  margin-bottom: 15px;
+  font-size: 30px;
+  text-align: right;
+}
+
+.icones-redes {
+  display: flex;
+  gap: 30px;
+  float: right;
+}
+
+.icones-redes img {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 
 
 
+
+
+.container {
+    position: relative;
+    width: 600px; 
+    height: 300px; 
+}
+
+.button {
+    position: absolute;
+    background-color: #d95319; 
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: 3px solid #4CAF50; 
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #c04a16; 
+}
+
+
+.top-left {
+    top: 20px;
+    left: 50px;
+}
+
+.top-right {
+    top: 20px;
+    right: 50px;
+}
+
+.center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.bottom-left {
+    bottom: 20px;
+    left: 50px;
+}
+
+.bottom-right {
+    bottom: 20px;
+    right: 50px;
+}
 
